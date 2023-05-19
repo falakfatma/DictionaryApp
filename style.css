@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  font-size: x-large;
+
+}
+
+.TranslationArea textarea {
+  background: #E0E0E0;
+  margin-left: 2rem;
+}
+
+.cards {
+  display: flex;
+}
+
+.btn {
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: larger;
+  text-align: center;
+}
