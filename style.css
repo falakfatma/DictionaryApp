@@ -9,6 +9,10 @@ textarea {
 
 }
 
+.TranslationArea {
+  margin: 0 0.4rem 0.4rem 9rem;
+}
+
 .TranslationArea textarea {
   background: #E0E0E0;
   margin-left: 2rem;
@@ -16,12 +20,35 @@ textarea {
 
 .cards {
   display: flex;
+
+}
+
+#partsOfSpeech {
+  margin: 0rem;
+  color: #40424296;
+  font-family: cursive;
+}
+
+#wordPronounce {
+  margin: 0px;
+  color: #000000ad;
+}
+
+#heading {
+  color: cornflowerblue;
+  font-family: cursive;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 1px;
 }
 
 .btn {
-  border: 2px solid blueviolet;
+  /* border: 2px solid blueviolet; */
   border-radius: 5px;
   padding: 1rem;
+  background: blueviolet;
   font-size: larger;
+  color: aliceblue;
   text-align: center;
+  cursor: pointer;
 }
